@@ -5,7 +5,7 @@ const fg = require('fast-glob');
 
 const pastaJogo = './jogo';
 const urlBase = 'https://SEU_USUARIO.github.io/jogo-launcher-demo'; // Altere aqui
-const caminhoManifesto = './manifesto.json';
+const caminhoManifesto = './manifest.json';
 
 function gerarHash(filePath: string): string {
   const buffer = fs.readFileSync(filePath);
