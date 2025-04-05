@@ -4,7 +4,7 @@ const nodeCrypto = require('crypto');
 const fg = require('fast-glob');
 
 const pastaJogo = './jogo';
-const urlBase = 'https://SEU_USUARIO.github.io/jogo-launcher-demo'; // Altere aqui
+const urlBase = 'https://0rogerinho.github.io/kafraverse-game-demo'; // Altere aqui
 const caminhoManifesto = './manifest.json';
 
 function gerarHash(filePath: string): string {
