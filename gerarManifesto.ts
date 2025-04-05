@@ -1,24 +1,24 @@
-import fs from "fs";
-import path from "path";
-import crypto from "crypto";
-import fg from "fast-glob";
+const fs = require('fs');
+const path = require('path');
+const nodeCrypto = require('crypto');
+const fg = require('fast-glob');
 
-const pastaJogo = "./jogo";
-const urlBase = "https://SEU_USUARIO.github.io/jogo-launcher-demo"; // Altere aqui
-const caminhoManifesto = "./manifesto.json";
+const pastaJogo = './jogo';
+const urlBase = 'https://SEU_USUARIO.github.io/jogo-launcher-demo'; // Altere aqui
+const caminhoManifesto = './manifesto.json';
 
 function gerarHash(filePath: string): string {
   const buffer = fs.readFileSync(filePath);
-  return crypto.createHash("sha256").update(buffer).digest("hex");
+  return nodeCrypto.createHash('sha256').update(buffer).digest('hex');
 }
 
 async function gerarManifesto() {
-  const arquivos = await fg(["**/*"], { cwd: pastaJogo, onlyFiles: true });
+  const arquivos = await fg(['**/*'], { cwd: pastaJogo, onlyFiles: true });
 
   const manifesto = arquivos.map((arquivo) => {
     const caminhoLocal = path.join(pastaJogo, arquivo);
     const hash = gerarHash(caminhoLocal);
-    const url = `${urlBase}/${arquivo.replace(/\\/g, "/")}`;
+    const url = `${urlBase}/${arquivo.replace(/\\/g, '/')}`;
 
     return {
       path: arquivo,

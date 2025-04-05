@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "npx tsx gerarManifesto.ts"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
+  }
+}
