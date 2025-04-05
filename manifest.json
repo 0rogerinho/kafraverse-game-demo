@@ -2,19 +2,23 @@
   "files": [
     {
       "path": "fase1.txt",
-      "url": "https://0rogerinho.github.io/kafraverse-game-demo/jogo/fase1.txt"
+      "hash": "21ade753432f341d0101da60b0ac12db6909fac6af860e33e7889ecf2ca3b96b",
+      "url": "https://0rogerinho.github.io/kafraverse-game-demo/fase1.txt"
     },
     {
       "path": "fase2.txt",
-      "url": "https://0rogerinho.github.io/kafraverse-game-demo/jogo/fase2.txt"
+      "hash": "1bb67d0b92e696075af8c6cceb9d338677e4af24566a79457513e043f8645eee",
+      "url": "https://0rogerinho.github.io/kafraverse-game-demo/fase2.txt"
     },
     {
       "path": "personagem.png",
-      "url": "https://0rogerinho.github.io/kafraverse-game-demo/jogo/personagem.png"
+      "hash": "b436511cf5242e23914af3a2977bb07e393599eceb63d81636e4ac556be52735",
+      "url": "https://0rogerinho.github.io/kafraverse-game-demo/personagem.png"
     },
     {
       "path": "som.mp3",
-      "url": "https://0rogerinho.github.io/kafraverse-game-demo/jogo/som.mp3"
+      "hash": "ad1ef80c4d0923976cfdafdc06c140ab224b7cfee9d0e5a32631d1096fdf38ce",
+      "url": "https://0rogerinho.github.io/kafraverse-game-demo/som.mp3"
     }
   ]
 }
