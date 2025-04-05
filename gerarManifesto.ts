@@ -16,7 +16,7 @@ async function gerarManifesto() {
   const arquivos = await fg(['**/*'], { cwd: pastaJogo, onlyFiles: true });
 
   const files = arquivos.map((arquivo) => {
-    const url = `${urlBase}/${arquivo.replace(/\\/g, '/')}`;
+    const url = `${urlBase}/jogo/${arquivo.replace(/\\/g, '/')}`;
     return {
       path: arquivo,
       url,
