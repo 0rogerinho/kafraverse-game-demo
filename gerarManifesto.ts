@@ -15,20 +15,18 @@ function gerarHash(filePath: string): string {
 async function gerarManifesto() {
   const arquivos = await fg(['**/*'], { cwd: pastaJogo, onlyFiles: true });
 
-  const manifesto = arquivos.map((arquivo) => {
-    const caminhoLocal = path.join(pastaJogo, arquivo);
-    const hash = gerarHash(caminhoLocal);
+  const files = arquivos.map((arquivo) => {
     const url = `${urlBase}/${arquivo.replace(/\\/g, '/')}`;
-
     return {
       path: arquivo,
-      hash,
       url,
     };
   });
 
+  const manifesto = { files };
+
   fs.writeFileSync(caminhoManifesto, JSON.stringify(manifesto, null, 2));
-  console.log(`✅ Manifesto gerado com ${manifesto.length} arquivos.`);
+  console.log(`✅ Manifesto gerado com ${files.length} arquivos.`);
 }
 
 gerarManifesto();
