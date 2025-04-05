@@ -18,7 +18,7 @@ async function gerarManifesto() {
   const files = arquivos.map((arquivo) => {
     const caminhoLocal = path.join(pastaJogo, arquivo);
     const hash = gerarHash(caminhoLocal);
-    const url = `${urlBase}/${arquivo.replace(/\\/g, '/')}`;
+    const url = `${urlBase}/jogo/${arquivo.replace(/\\/g, '/')}`;
     return {
       path: arquivo,
       hash,
