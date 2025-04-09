@@ -1,0 +1,3227 @@
+achievement_tbl = {
+	[120000] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Antes tarde do que nunca!",
+		content = {
+			summary = "Alcance o nivel de base 99!",
+			details = "Alcance o nivel de base 99!"
+		},
+		resource = { [1] = { text = "Base level 99" } },
+		reward = {},
+		score = 5
+	},
+	[120001] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "A Primeira vez...",
+		content = {
+			summary = "Escolha sua primeira classe!",
+			details = "A Primeira vez a gente nunca esquece!"
+		},
+		resource = { [1] = { text = "Escolha sua primeira Classe" } },
+		reward = {},
+		score = 5
+	},
+	[120002] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Depois da tempestade...",
+		content = {
+			summary = "Escolha sua segunda Classe!",
+			details = "Depois da tempestade, vem a bonança!"
+		},
+		resource = { [1] = { text = "Escolha sua segunda Classe!" } },
+		reward = {},
+		score = 10
+	},
+	[120005] = {
+		UI_Type = 0,
+		group = "GET_ZENY",
+		major = 10,
+		minor = 0,
+		title = "Rich King (1)",
+		content = {
+			summary = "Hold more than 10,000 zeny in pocket",
+			details = "Money is not everything, that because you're poor. Hold more than 10,000 zeny in pocket."
+		},
+		resource = { [1] = { text = "Hold more than 10,000 zeny in pocket" } },
+		reward = {},
+		score = 5
+	},
+	[130000] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "O Eremita Moderno!",
+		content = {
+			summary = "Torne-se um eremita moderno conhecendo todas as cidades classicas de rune-midgard",
+			details = "Pre-requisito: ter todas as conquistas de 'Explorador' dos mapas classicos [Prontera, Geffen, Payon, Morroc, Aldebaran, Comodo]"
+		},
+		resource = { [1] = { text = "Torne-se um Eremita" } },
+		reward = {},
+		score = 15
+	},
+	[130001] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Explorador de Prontera",
+		content = {
+			summary = "Explore todos os campos da capital de rune-midgard!",
+			details = "Pre-requisito: Encontrar todos os baus de todos os campos de Prontera."
+		},
+		resource = { [1] = { text = "Explorador de Prontera" } },
+		reward = {item = 35999},
+		score = 5
+	},
+	[130002] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Explorador de Geffen",
+		content = {
+			summary = "Explore todos os campos da cidade da magia!",
+			details = "Pre-requisito: Encontrar todos os baus de todos os campos de Geffen."
+		},
+		resource = { [1] = { text = "Explorador de Geffen" } },
+		reward = {item = 35999},
+		score = 5
+	},
+	[130003] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Explorador de Morroc",
+		content = {
+			summary = "Explore todos os campos da cidade do deserto!",
+			details = "Pre-requisito: Encontrar todos os baus de todos os campos de Morroc."
+		},
+		resource = { [1] = { text = "Explorador de Morroc" } },
+		reward = {item = 35999},
+		score = 5
+	},
+	[130004] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Explorador de Payon",
+		content = {
+			summary = "Explore todos os campos da cidade do deserto!",
+			details = "Pre-requisito: Encontrar todos os baus de todos os campos de Payon."
+		},
+		resource = { [1] = { text = "Explorador de Payon" } },
+		reward = {item = 35999},
+		score = 5
+	},
+	[130005] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Explorador de Aldebaran",
+		content = {
+			summary = "Explore todos os campos da cidade dos moinhos!",
+			details = "Pre-requisito: Encontrar todos os baus de todos os campos de Aldebaran."
+		},
+		resource = { [1] = { text = "Explorador de Aldebaran" } },
+		reward = {item = 35999},
+		score = 5
+	},
+	[130006] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Explorador de Comodo",
+		content = {
+			summary = "Explore todos os campos da cidade criada dentro de uma caverna!",
+			details = "Pre-requisito: Encontrar todos os baus de todos os campos de Comodo."
+		},
+		resource = { [1] = { text = "Explorador de Comodo" } },
+		reward = {item = 35999},
+		score = 5
+	},
+	[130007] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Explorador de Juno",
+		content = {
+			summary = "Explore todos os campos da cidade do conhecimento!",
+			details = "Pre-requisito: Encontrar todos os baus de todos os campos de Juno."
+		},
+		resource = { [1] = { text = "Explorador de Juno" } },
+		reward = {item = 35999},
+		score = 5
+	},
+	[140001] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (01)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild01"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild01" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140002] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (02)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild02"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild02" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140003] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (03)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild03"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild03" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140004] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (04)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild04"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild04" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140005] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (05)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild05"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild05" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140006] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (06)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild06"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild06" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140007] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (07)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild07"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild07" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140008] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (08)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild08"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild08" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140009] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (09)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild09"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild09" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140010] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (10)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild10"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild10" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140095] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (00)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild00"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild00" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140011] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (00)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild00"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild00" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140012] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (01)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild01"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild01" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140071] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (02)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild02"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild02" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140072] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (03)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild03"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild03" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140073] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (04)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild04"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild04" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140013] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (05)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild05"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild05" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140014] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (06)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild06"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild06" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140015] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (07)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild07"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild07" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140074] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (08)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild08"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild08" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140016] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (09)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild09"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild09" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140075] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (10)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild10"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild10" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140017] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (11)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild11"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild11" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140076] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos da Magia (12)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em gef_fild12"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em gef_fild12" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140070] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Arredores da Capital (11)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em prt_fild11"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em prt_fild11" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140077] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (01)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild01"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild01" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140078] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (02)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild02"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild02" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140079] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (01)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild03"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild03" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140080] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (04)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild04"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild04" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140081] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (05)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild05"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild05" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140082] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (06)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild06"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild06" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140083] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (07)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild07"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild07" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140084] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (08)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild08"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild08" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140085] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (09)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild09"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild09" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140086] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (10)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild10"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild10" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140018] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (11)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild11"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild11" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140019] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (12)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild12"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild12" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140020] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (13)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild13"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild13" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140087] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (14)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild14"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild14" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140088] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (15)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild15"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild15" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140021] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (16)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild16"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild16" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140022] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (17)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild17"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild17" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140023] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Forjado no Deserto (18)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em moc_fild18"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em moc_fild18" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140024] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (01)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild01"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild01" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140025] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (02)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild02"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild02" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140026] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (03)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild03"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild03" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140027] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (04)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild04"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild04" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140089] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (05)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild05"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild05" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140090] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (06)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild06"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild06" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140028] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (07)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild07"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild07" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140029] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (08)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild08"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild08" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140030] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (09)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild09"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild09" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140031] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (10)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild10"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild10" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140091] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Povos da Floresta (11)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em pay_fild11"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em pay_fild11" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140032] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (01)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_01"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_01" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140033] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (02)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_02"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_02" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140034] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (03)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_03"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_03" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140035] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (04)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_04"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_04" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140036] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (05)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_05"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_05" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140037] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (06)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_06"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_06" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140038] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (07)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_07"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_07" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140039] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (08)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_08"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_08" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140040] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (09)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_09"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_09" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140041] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (10)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_10"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_10" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140042] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (11)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_11"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_11" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140043] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "A Cordilheira (12)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em mjolnir_12"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em mjolnir_12" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140044] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Capitão Caverna (01)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em cmd_fild01"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em cmd_fild01" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140045] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Capitão Caverna (02)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em cmd_fild02"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em cmd_fild02" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140046] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Capitão Caverna (03)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em cmd_fild03"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em cmd_fild03" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140047] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Capitão Caverna (04)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em cmd_fild04"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em cmd_fild04" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140094] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Capitão Caverna (05)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em cmd_fild05"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em cmd_fild05" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140048] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Capitão Caverna (06)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em cmd_fild06"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em cmd_fild06" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140049] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Capitão Caverna (07)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em cmd_fild07"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em cmd_fild07" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140050] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Capitão Caverna (08)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em cmd_fild08"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em cmd_fild08" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140051] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Capitão Caverna (09)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em cmd_fild09"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em cmd_fild09" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140052] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (01)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild01"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild01" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140054] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (02)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild02"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild02" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140055] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (03)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild03"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild03" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140056] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (04)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild04"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild04" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140092] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (05)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild05"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild05" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140057] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (06)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild06"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild06" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140058] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (07)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild07"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild07" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140059] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (08)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild08"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild08" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140060] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (09)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild09"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild09" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140093] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (10)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild10"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild10" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140061] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (11)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild11"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild11" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[140053] = {
+		UI_Type = 0,
+		group = "AG_ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Caminhos de Ymir (12)",
+		content = {
+			summary = "Descubra o tesouro escondido",
+			details = "Descubra o tesouro escondido em yuno_fild12"
+		},
+		resource = { [1] = { text = "Descubra o tesouro escondido em yuno_fild12" } },
+		reward = {item = 35999},
+		score = 1
+	},
+	[150000] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 3,
+		minor = 0,
+		title = "Caminho do Aprendiz",
+		content = {
+			summary = "Conclua a Vila dos Porings (Normal)",
+			details = "Conclua a Vila dos Porings (Normal)"
+		},
+		resource = {
+			[1] = { text = "Conclua a Vila dos Porings (Normal)" }
+		},
+		reward = {},
+		score = 10
+	},
+	[150001] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 3,
+		minor = 0,
+		title = "Brinquedo Inquieto",
+		content = {
+			summary = "Conclua a Fabrica dos Brinquedos (Normal)",
+			details = "Conclua a Fabrica dos Brinquedos (Normal)"
+		},
+		resource = {
+			[1] = { text = "Conclua a Fabrica dos Brinquedos (Normal)" }
+		},
+		reward = {},
+		score = 10
+	},
+	[151001] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 3,
+		minor = 1,
+		title = "Temerário",
+		content = {
+			summary = "Conclua a Fabrica do Terror (Savage)",
+			details = "Conclua a Fabrica do Terror (Savage)"
+		},
+		resource = {
+			[1] = { text = "Conclua a Fabrica do Terror (Savage)" }
+		},
+		reward = { title = 1003 },
+		score = 50
+	},
+	[160000] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 4,
+		minor = 0,
+		title = "O Sinal",
+		content = {
+			summary = "Conclua a Quest para ter acesso Geffenia",
+			details = "A promessa de um poder inimaginável de um Arqueólogo experiente pode levar você para a maior aventura que existe!"
+		},
+		resource = {
+			[1] = { text = "Pergunte a Teleportadora sobre O Sinal" },
+			[2] = { text = "Colete os materiais e entregue a Teleportadora" }
+		},
+		reward = {},
+		score = 10
+	},
+	[161000] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 4,
+		minor = 1,
+		title = "O Recruta",
+		content = {
+			summary = "Faça parte do Grupo Éden",
+			details = "Fale com a Secretária Lenore na Academia do Grupo Éden"
+		},
+		resource = { 
+			[1] = { text = "Fale com a Secretária Lenore" },
+			[2] = { text = "Conclua a quest da Instrutora Boya" }
+		},
+		reward = {},
+		score = 5,
+	},
+
+	[170000] = {
+		UI_Type = 0,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Dia do Caçador",
+		content = {
+			summary = "Torne-se um verdadeiro Predador",
+			details = "Que Alien que nada..."
+		},
+		resource = { [1] = { text = "Torne-se um verdadeiro Predador, conquistando todo o bestiario" } },
+		reward = {},
+		score = 15,
+	},
+	[170001] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Filho da Pupa",
+		content = {
+			summary = "Eliminar 300 Creamys",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Creamys", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170002] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Mina minha é minha mina",
+		content = {
+			summary = "Eliminar 300 Esqueletos Operarios",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Esqueletos Operarios", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170003] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Aracnofobia reversa",
+		content = {
+			summary = "Eliminar 300 Argos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Argos", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170004] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "A floresta contra-ataca",
+		content = {
+			summary = "Eliminar 300 Mandragoras",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Mandragoras", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170005] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Esse é do ramo",
+		content = {
+			summary = "Eliminar 300 Salgueiros Anciões",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Salgueiros Anciões", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170006] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Pisando em Ovos",
+		content = {
+			summary = "Eliminar 300 Ovos de Peco-peco",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Ovos de Peco-peco", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170007] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Casca Grossa",
+		content = {
+			summary = "Eliminar 300 Besouros-Chifre",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Besouros-Chifre", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170008] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "SBP não é desodorante",
+		content = {
+			summary = "Eliminar 300 Chonchons-de-aço",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Chonchons-de-aço", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170009] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Fica frio, neném",
+		content = {
+			summary = "Eliminar 300 Sasquatchs",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Sasquatchs", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170010] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Zero Bala",
+		content = {
+			summary = "Eliminar 300 Soldadinhos de Chumbo",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Soldadinhos de Chumbo", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170011] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Pérolas aos porcos",
+		content = {
+			summary = "Eliminar 300 Bebês selvagens",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Bebês selvagens", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170012] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Fenda do biquini",
+		content = {
+			summary = "Eliminar 300 Estrelas-do-mar",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Estrelas-do-mar", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170013] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Osso duro de roer",
+		content = {
+			summary = "Eliminar 300 Megalodons",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Megalodons", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170014] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Hail Hydra",
+		content = {
+			summary = "Eliminar 300 Hidras",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Hidras", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170015] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Filho de peixinho...",
+		content = {
+			summary = "Eliminar 300 Peixes-espada",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Peixes-espada", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170016] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "João Peçonha",
+		content = {
+			summary = "Eliminar 300 Argiopes",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Argiopes", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170017] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Sohee pra mim",
+		content = {
+			summary = "Eliminar 300 Sohees",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Sohees", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170018] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Por cima do meu cadaver",
+		content = {
+			summary = "Eliminar 300 Esqueletos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Esqueletos", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170019] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "O Andando Morto",
+		content = {
+			summary = "Eliminar 300 Zumbis",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Zumbis", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170020] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "A ver navios",
+		content = {
+			summary = "Eliminar 300 Esqueletos Piratas",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Esqueletos Piratas", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170021] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Peixe Morre Pela Boca",
+		content = {
+			summary = "Eliminar 300 Obeaunes",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Obeaunes", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170022] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Pau que nasce torto",
+		content = {
+			summary = "Eliminar 300 Guardiões da Floresta",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Guardiões da Floresta", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170023] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Ladrão que mata Ladrão",
+		content = {
+			summary = "Eliminar 300 Besouros-Ladrões",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Besouros-Ladrões", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170024] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Boca fechada não entra mosca",
+		content = {
+			summary = "Eliminar 300 Chonchons de aço",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Chonchons de aço", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170025] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Cão que ladra não morde",
+		content = {
+			summary = "Eliminar 300 Lobos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Lobos", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170026] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Tá osso!",
+		content = {
+			summary = "Eliminar 300 Esqueletos Soldados",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Esqueletos Soldados", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170027] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Cada macaco no seu galho",
+		content = {
+			summary = "Eliminar 300 Yoyos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Yoyos", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170028] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Casa da mãe Joana",
+		content = {
+			summary = "Eliminar 300 Percevejos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Percevejos", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170029] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Atirei o Pau no Gato",
+		content = {
+			summary = "Eliminar 300 Rosas Selvagens",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Rosas Selvagens", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170030] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Nem tudo são flores",
+		content = {
+			summary = "Eliminar 300 Floras",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Floras", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170031] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Onde há fumaça, há fogo",
+		content = {
+			summary = "Eliminar 300 Horongs",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Horongs", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170032] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "A Cobra vai fumar",
+		content = {
+			summary = "Eliminar 300 Jibóias",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Jibóias", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170033] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Engolindo Sapo",
+		content = {
+			summary = "Eliminar 300 Sapos de Thara",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Sapos de Thara", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170034] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "É Sempre um Zubat!",
+		content = {
+			summary = "Eliminar 300 Familiares (O Morceguinho, pelo amor de Deus)",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Familiares (O Morceguinho, pelo amor de Deus)", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170035] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Da Vila",
+		content = {
+			summary = "Eliminar 300 Martins",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Martin", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170036] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Estou Chocado",
+		content = {
+			summary = "Eliminar 300 Eggyras",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Eggyras", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170037] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Toin, Toin, Toin",
+		content = {
+			summary = "Eliminar 300 Munaks",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Munaks", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170038] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Robert...Formiga?",
+		content = {
+			summary = "Eliminar 300 Deniros",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Deniros", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170039] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Formiga dá mel?",
+		content = {
+			summary = "Eliminar 300 Vitatas",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Vitatas", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170040] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Fogo na Bomba",
+		content = {
+			summary = "Eliminar 300 Névoas",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Névoas", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170041] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Badtrip",
+		content = {
+			summary = "Eliminar 300 Esporos Venenosos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Esporos Venenosos", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170042] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Sai um shimeji",
+		content = {
+			summary = "Eliminar 300 Esporos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Esporos", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170043] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Até Jakk tem quem passe um pano",
+		content = {
+			summary = "Eliminar 300 Jakks",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Jakks", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170044] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "The Orc is Dead",
+		content = {
+			summary = "Eliminar 300 Orcs Zumbi",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Orcs Zumbi", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170045] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Segura a maçã aqui pra mim",
+		content = {
+			summary = "Eliminar 300 Esqueletos Arqueiros",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Esqueletos Arqueiros", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170046] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Duro como pedra",
+		content = {
+			summary = "Eliminar 300 Golens",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Golens", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170047] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Maldição dos 27",
+		content = {
+			summary = "Eliminar 300 Rockers",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Rockers", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170048] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Acabando com o Natal",
+		content = {
+			summary = "Eliminar 300 Presentes",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Presentes", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170049] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Esquema de Pirâmide",
+		content = {
+			summary = "Eliminar 300 Zeroms",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Zeroms", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170050] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Seu Kukre é Eu",
+		content = {
+			summary = "Eliminar 300 Kukres",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Kukres", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170051] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Chocolate, Biscoito...",
+		content = {
+			summary = "Eliminar 300 Caramelos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 300 Caramelos", count = 300 } },
+		reward = {},
+		score = 5
+	},
+	[170100] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Sangue do meu sangue",
+		content = {
+			summary = "Eliminar 200 Moscas-Caçadoras",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Moscas-Caçadoras", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170101] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Um parafuso a mais",
+		content = {
+			summary = "Eliminar 200 Alarmes",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Alarmes", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170102] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Za Warudo",
+		content = {
+			summary = "Eliminar 200 Relógios",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Relógios", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170103] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Fogo interior",
+		content = {
+			summary = "Eliminar 200 Aquecedores",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Aquecedores", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170104] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Palha assada",
+		content = {
+			summary = "Eliminar 200 Carats",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Carats", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170105] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Que trazes pra mim?",
+		content = {
+			summary = "Eliminar 200 Coelhos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Coelhos", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170106] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Cavalo dado não se olha os dentes",
+		content = {
+			summary = "Eliminar 200 Pesadelos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Pesadelos", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170107] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Tristeza de Sasori",
+		content = {
+			summary = "Eliminar 200 Marionetes",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Marionetes", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170108] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Fantasma no Posto",
+		content = {
+			summary = "Eliminar 200 Raydrics Arqueiros",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Raydrics Arqueiros", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170109] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Quando foi isso? Nunca nem vi",
+		content = {
+			summary = "Eliminar 200 Esqueletos prisioneiros",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Esqueletos prisioneiros", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170110] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Diário de um detento",
+		content = {
+			summary = "Eliminar 200 Zumbis Prisioneiros",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Zumbis Prisioneiros", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170111] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Só dedetizadores de roedores",
+		content = {
+			summary = "Eliminar 200 Sorrateiros",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Mímicos", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170112] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Mordendo a própria língua",
+		content = {
+			summary = "Eliminar 200 Ísis",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Ísis", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170113] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Totem Tando",
+		content = {
+			summary = "Eliminar 200 Megaliths",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Megaliths", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170114] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Olha a pedra",
+		content = {
+			summary = "Eliminar 200 Medusas",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Medusas", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170115] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Mak'gora",
+		content = {
+			summary = "Eliminar 200 Grand Orcs",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Grand Orcs", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170116] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Bracinho de Jacaré",
+		content = {
+			summary = "Eliminar 200 Anolians",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Anolians", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170117] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Foca, mas não fofoca",
+		content = {
+			summary = "Eliminar 200 Focas",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Focas", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170118] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "História pra boi dormir",
+		content = {
+			summary = "Eliminar 200 Minorous",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 200 Minorous", count = 200 } },
+		reward = {},
+		score = 5
+	},
+	[170200] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "A primeira faz tchum",
+		content = {
+			summary = "Eliminar 125 Andarilhos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 125 Andarilhos", count = 125 } },
+		reward = {},
+		score = 5
+	},
+	[170201] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Homem na Caixa",
+		content = {
+			summary = "Eliminar 125 Alices",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 125 Alices", count = 125 } },
+		reward = {},
+		score = 5
+	},
+	[170202] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "GM, bufa arco de orc pls",
+		content = {
+			summary = "Eliminar 125 Orcs Arqueiros",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 125 Orcs Arqueiros", count = 125 } },
+		reward = {},
+		score = 5
+	},
+	[170203] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Porque está tão sério?",
+		content = {
+			summary = "Eliminar 125 Coringas (e salve Gotham)",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 125 Coringas (e salve Gotham)", count = 125 } },
+		reward = {},
+		score = 5
+	},
+	[170204] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Não há descanso para os condenados",
+		content = {
+			summary = "Eliminar 125 Injustiçados",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 125 Injustiçados", count = 125 } },
+		reward = {},
+		score = 5
+	},
+	[170205] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Mãe, pega o chinelo!",
+		content = {
+			summary = "Eliminar 125 Arclouses",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 125 Arclouses", count = 125 } },
+		reward = {},
+		score = 5
+	},
+	[170206] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Mister Mime",
+		content = {
+			summary = "Eliminar 125 Mímicos",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 125 Mímicos", count = 125 } },
+		reward = {},
+		score = 5
+	},
+	[170207] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Vai uma mãozinha ai?",
+		content = {
+			summary = "Eliminar 125 Sting",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar 125 Sting", count = 125 } },
+		reward = {},
+		score = 5
+	},
+	[171000] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Cachorro Grande",
+		content = {
+			summary = "Eliminar o Garm",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Garm", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171001] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Forma Decadente",
+		content = {
+			summary = "Eliminar o Osíris",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Osíris", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171002] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Bode Expiatório",
+		content = {
+			summary = "Eliminar o Bafomé",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Bafomé", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171003] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Espada atchim",
+		content = {
+			summary = "Eliminar o Doppelganger",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Doppelganger", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171004] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Pra elas, nadinha!",
+		content = {
+			summary = "Eliminar a Abelha-rainha",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar a Abelha-rainha", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171005] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Nem tudo que reluz é ouro",
+		content = {
+			summary = "Eliminar o Besouro-ladrão dourado",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Besouro-ladrão dourado", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171006] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Quem precisa de heróis?",
+		content = {
+			summary = "Eliminar o Orc Herói",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Orc Herói", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171007] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Pérola Negra",
+		content = {
+			summary = "Eliminar o Drake",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Drake", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171008] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Um Tigre Triste",
+		content = {
+			summary = "Eliminar o Eddga",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Eddga", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171009] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Eficaz contra os insetos",
+		content = {
+			summary = "Eliminar a Maya",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar a Maya", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171010] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "A Luar me traiu",
+		content = {
+			summary = "Eliminar a Flor do Luar",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar a Flor do Luar", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171011] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Seu lugar é no museu!",
+		content = {
+			summary = "Eliminar o Faraó",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Faraó", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171012] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "To de olho no senhor",
+		content = {
+			summary = "Eliminar o Freeoni",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Freeoni", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171013] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Cowabunga!",
+		content = {
+			summary = "Eliminar o General Tartaruga",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o General Tartaruga", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171014] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Eu sou trabalhador, Senhor...",
+		content = {
+			summary = "Eliminar o Senhor dos Orcs",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Senhor dos Orcs", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171015] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Como um cachorro sem o osso",
+		content = {
+			summary = "Eliminar o Cavaleiro da Tempestade",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Cavaleiro da Tempestade", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[171016] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "In nomine patris et filii et spiritus sancti",
+		content = {
+			summary = "Eliminar o Senhor das Trevas",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Senhor das Trevas", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172000] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Os Cães Ladram...",
+		content = {
+			summary = "Eliminar o Lobo Errante",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Lobo Errante", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172001] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Na Beira do Rio",
+		content = {
+			summary = "Eliminar o Sapo Cururu",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Sapo Cururu", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172002] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Bolão",
+		content = {
+			summary = "Eliminar o Mastering",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Mastering", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172003] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Libélula uma pra nós!",
+		content = {
+			summary = "Eliminar a Libélula",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar a Libélula", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172004] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Tapar o sol com a peneira",
+		content = {
+			summary = "Eliminar o Eclipse",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Eclipse", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172005] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Fantasminha Camarada",
+		content = {
+			summary = "Eliminar o Ghostring",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Ghostring", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172006] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Zanbatou que corta",
+		content = {
+			summary = "Eliminar o Executor",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Executor", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172007] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Entre a Cruz e a Espada",
+		content = {
+			summary = "Eliminar a Mysteltainn",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar a Mysteltainn", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172008] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Saudades, amigão",
+		content = {
+			summary = "Eliminar o Grifo :(",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Grifo :(", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172009] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Baforada",
+		content = {
+			summary = "Eliminar o Mutante Dragonoide",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Mutante Dragonoide", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172010] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Ed...ward...Oni...Chan",
+		content = {
+			summary = "Eliminar a Chimera",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar a Chimera", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172011] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Chuva roxa",
+		content = {
+			summary = "Eliminar a Maya Purple",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar a Maya Purple", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172012] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "A Bola Pune",
+		content = {
+			summary = "Eliminar o Archangeling",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Archangeling", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172013] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Uma Bolada",
+		content = {
+			summary = "Eliminar o Angeling",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Angeling", count = 1 } },
+		reward = {},
+		score = 5
+	},
+	[172014] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Sakabatou invertida",
+		content = {
+			summary = "Eliminar o Tyrfing",
+			details = ""
+		},
+		resource = { [1] = { text = "Eliminar o Tyrfing", count = 1 } },
+		reward = {},
+		score = 5
+	},
+
+-- WORLDBOSS
+	[172500] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 2,
+		title = "Mestre da Primavera",
+		content = {
+			summary = "Elimine o Guardião da Primavera",
+			details = ""
+		},
+		resource = { [1] = { text = "Elimine o Guardião da Primavera", count = 1 } },
+		reward = {},
+		score = 50
+	},
+
+	[180000] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 1,
+		minor = 1,
+		title = "Só vou dormir quando morrer",
+		content = {
+			summary = "Obtenha o pacote fundador",
+			details = "Obtenha o pacote fundador na Loja de Cashpoints (Limitado)"
+		},
+		resource = { 
+			[1] = { text = "Obtenha o pacote fundador" },
+			[2] = { text = "+5% de EXP ao usar o Título" }
+		},
+		reward = { title = 1000 },
+		score = 10
+	},
+	[180001] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 1,
+		minor = 1,
+		title = "Vá em frente e multiplique",
+		content = {
+			summary = "Vença a Corrida 99",
+			details = "Seja um dos primeiros de sua classe a atingir o level 99."
+		},
+		resource = { 
+			[1] = { text = "Vença a Corrida 99" },
+			[2] = { text = "+10% de EXP ao usar o Título" }
+		},
+		reward = { title = 1001 },
+		score = 10
+	},
+-- SEASONAIS
+	[180500] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 6,
+		minor = 0,
+		title = "Até ovos caem das árvores",
+		content = {
+			summary = "Particice do Evento Sasonal de Páscoa",
+			details = ""
+		},
+		resource = { [1] = { text = "Participe do Evento Sasonal de Páscoa" } },
+		reward = {},
+		score = 25
+	},
+
+	[190000] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 10,
+		minor = 0,
+		title = "Complete first introduction challange",
+		content = {
+			summary = "Complete first introduction challange.",
+			details = "Complete first introduction challange."
+		},
+		resource = { [1] = { text = "Complete first introduction challange" } },
+		reward = {},
+		score = 10
+	},
+	[190001] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 10,
+		minor = 0,
+		title = "Reach Base Level 1",
+		content = {
+			summary = "Reach Base Level 1",
+			details = "Reach Base Level 1."
+		},
+		resource = { [1] = { text = "Reach Base Level 1" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[190002] = {
+		UI_Type = 0,
+		group = "HEAR",
+		major = 10,
+		minor = 0,
+		title = "Song chamber is not an accident",
+		content = {
+			summary = "Listening the secret song of court musician",
+			details = "Listen the secret song of five recomended court musician"
+		},
+		resource = { [1] = { text = "Listen the secret song of five recomended court musician" } },
+		reward = {},
+		score = 10
+	},
+	[190003] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 10,
+		minor = 0,
+		title = "Poring - taming",
+		content = {
+			summary = "Successfully tame a Poring",
+			details = "Let's get a Poring pet. You can use 'Unripe Apple'."
+		},
+		resource = { [1] = { text = "Successfully tame a Poring" } },
+		reward = {},
+		score = 10
+	},
+	[190004] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 10,
+		minor = 0,
+		title = "This is My way!",
+		content = {
+			summary = "Job change to expanded 2nd classes",
+			details = "Soul Linker, Star Gladiator, Rebellion, Oboro or Kagerou."
+		},
+		resource = { [1] = { text = "Expanded 2nd classes" } },
+		reward = { buff = 12, item = 16483 },
+		score = 20
+	},
+	[190005] = {
+		UI_Type = 0,
+		group = "GET_ZENY",
+		major = 10,
+		minor = 0,
+		title = "Rich King (1)",
+		content = {
+			summary = "Hold more than 10,000 zeny in pocket",
+			details = "Money is not everything, that because you're poor. Hold more than 10,000 zeny in pocket."
+		},
+		resource = { [1] = { text = "Hold more than 10,000 zeny in pocket" } },
+		reward = {},
+		score = 10
+	}
+}
+function main()
+	for achieveID, achieveInfo in pairs(achievement_tbl) do
+		result, msg = InsertAchieveInfo(achieveID, achieveInfo.title, achieveInfo.content.summary, achieveInfo.content.details, achieveInfo.score)
+		if not result then
+			return false, msg
+		end
+		if nil ~= achieveInfo.resource then
+			for index, resource in ipairs(achieveInfo.resource) do
+				if nil ~= resource.shortcut then
+					shortcut = resource.shortcut
+				else
+					shortcut = -1
+				end
+				if 0 == achieveInfo.UI_Type then
+					result, msg = InsertAchieveResource(achieveID, resource.text, 0, shortcut)
+				elseif 1 == achieveInfo.UI_Type then
+					result, msg = InsertAchieveResource(achieveID, resource.text, resource.count, shortcut)
+				end
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		if nil ~= achieveInfo.reward then
+			if nil ~= achieveInfo.reward.item then
+				result, msg = InsertAchieveRewardItem(achieveID, achieveInfo.reward.item)
+			end
+			if nil ~= achieveInfo.reward.title then
+				result, msg = InsertAchieveRewardTitle(achieveID, achieveInfo.reward.title)
+				if not result then
+					return false, msg
+				end
+			end
+			if nil ~= achieveInfo.reward.buff then
+				result, msg = InsertAchieveRewardBuff(achieveID, achieveInfo.reward.buff)
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		result, msg = InsertAchieveUIType(achieveID, achieveInfo.UI_Type, achieveInfo.group)
+		if not result then
+			return false, msg
+		end
+		result, msg = SetAchieveIDByTab(achieveID, achieveInfo.major, achieveInfo.minor)
+		if not result then
+			return false, msg
+		end
+	end
+	return true, "good"
+end
